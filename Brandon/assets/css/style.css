@@ -26,16 +26,17 @@ header{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-}
-.carousel-items{
     z-index: 0;
 }
+.carousel-item{
 
-.carousel-items a{
+}
+
+.carousel-item a{
     color: Black!important;
     border: 2px solid black;
 }
-.carousel-items a:hover{
+.carousel-item a:hover{
     color:white!important;
     background-color: red!important;
     transition: all .5s ease-in-out;
@@ -43,8 +44,28 @@ header{
 }
 
 .skate img{
-    left: center;
-    top: -20%;
+    right: 29%;
+    top: 0%;
     width: 33%;
     z-index: -1;
+}
+
+
+.carousel-indicators {
+    display: block;
+    right: inherit;
+    margin-left: 20px;
+    bottom: 66px;
+}
+
+.carousel-indicators li{
+    background-color: #000!important;
+    width: 20px!important;
+    height: 20px!important;
+    border-radius: 50%!important;
+    opacity: 1!important;
+}
+
+.carousel-indicators li.active {
+    background-color: red!important;
 }
