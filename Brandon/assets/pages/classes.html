@@ -6,14 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Tanzidur Rahman">
     <title>Brandon Classes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Poppins:wght@400;500;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/style.css">   
 </head>
 <body>
+    <!-- logo and Login Start -->
+    <section>
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="../images/logo.png" alt="logo" class="img-fluid">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9">
+                    <div class="header-menu text-end">
+                        <a href="#" class="text-decoration-none text-dark fs-4 fw-bold px-2 pe-5">LOGIN</a>
+                        <a class="" data-bs-toggle="offcanvas" href="#offcanvasBrandon" role="button" aria-controls="offcanvasBrandon">
+                            <img src="../images/menu_icon.png" alt="menu" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- logo and Login End -->
+
+        <!-- Offcanvas Start  -->
+    <div class="offcanvas offcanvas-start border-0 text-light" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasBrandon" aria-labelledby="offcanvasBrandon">
+        <div class="offcanvas-header ms-auto py-0">
+          <a class="btn text-light fs-4" data-bs-dismiss="offcanvas" aria-label="Close">X</a>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="navbar">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item"><a href="https://www.free-css.com/" class="nav-link">
+                        Home
+                    </a></li>
+                    <li class="nav-item"><a href="../pages/about.html" class="nav-link">
+                        About
+                    </a></li>
+                    <li class="nav-item"><a href="../pages/classes.html" class="nav-link">
+                        Classes
+                    </a></li>
+                    <li class="nav-item"><a href="../pages/testimonial.html" class="nav-link">
+                        Testimonial
+                    </a></li>
+                    <li class="nav-item"><a href="../pages/contact.html" class="nav-link">
+                        Contact
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+      </div>
+    <!-- Offcanvas End -->    
+</section>
+<!-- logo and Login End -->
+
+         <!--classesPart Start-->
+         <main class="position-relative classes pb-4">
+            <img src="../images/clip.png" alt="clip" class="position-absolute clip">
+            <h2 class="py-2 my-3 text-center fw-bold display-4 bg-danger text-light">CLASSES</h2>
+            <div class="container py-5">
+                <div class="row justify-content-evenly text-center">
+                    <div class="col-md-4 col-lg-4 col-sm-6">
+                        <img src="../images/classes_img1.png" alt="logo" class="img-fluid">
+                        <h1 class="text-center fw-bold pt-5">SKATING</h1>
+                   </div>
+                   <div class="col-md-4 col-lg-4 col-sm-6">
+                        <img src="../images/classes_img2.png" alt="logo" class="img-fluid">
+                        <h1 class="text-center fw-bold pt-5">SKATING</h1>
+                   </div>
+                   <div class="col-md-4 col-lg-4 col-sm-6">
+                        <img src="../images/classes_img3.png" alt="logo" class="img-fluid">
+                        <h1 class="text-center fw-bold pt-5">SKATING</h1>
+                   </div>
+                </div>
+            </div>
     
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-lg-12 text-center px-5">
+                        <div class="py-2">
+                            <p class="text-center px-sm-3 px-md-4 px-lg-5">
+                                It is a long established fact that a reader will be distracted by the readable
+                               content of a page when looking at its layout. The point of using Lorem Ipsum is 
+                               that it has a more-or-less normal distribution of letters, as opposed to using 
+                               'Content here, content here', making it It is a long established fact that a 
+                               reader will be distracted by the readable content of a page when lookingusing 
+                               Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                               as opposed to using 'Content here, content here', making it
+                            </p>
+                        </div>
+                        <div class="py-4">
+                            <a class="btn rounded-pill btn-outline-danger text-dark px-5 py-3" href="../pages/testimonials.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--classesPart End-->
     
 
+<!-- footer Start -->
+<footer class="py-5 mt-5">
+    <div class="container">
+        <div class="row justify-content-center text-center py-5">
+            <div class="col-sm-4 col-md-3 col-lg-3">
+            <a href="https://goo.gl/maps/dbwu4C859mEXwznM7" class="btn">
+                <i class="bi bi-geo-alt-fill d-block fs-1"></i>
+            </a>
+                <p class="pt-2">Location</p>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-3">
+            <a href="tel:+011234567890" class="btn">
+                <i class="bi bi-telephone-fill d-block fs-1"></i>
+            </a>
+                <p class="pt-2">+01 1234567890</p>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-3">
+            <a href="mailto:mail@domain.com" class="btn">
+                <i class="bi bi-envelope-fill d-block fs-1"></i>
+            </a>
+            <p class="pt-2">mail@domain.com</p>
+            </div>
+        </div>
+        <p class="text-center py-3">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        <p class="text-center py-3 pb-5 my-5">© 2045 All Rights Reserved. Design by HTML Design</p>
+    </div>
+</footer>
+<!-- footer End -->
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
