@@ -19,6 +19,7 @@ h2{
 .offcanvas{
     width: 20% !important;  
     background-color: red;
+    transition: all .3s ease-in;
 }
 .offcanvas a{
     color: white;
