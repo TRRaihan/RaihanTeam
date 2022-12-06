@@ -143,6 +143,11 @@ header .carousel-indicators li.active {
 .contact input.message{
     padding-top: 6rem!important;
 }
+
+footer a:hover{
+    color: red!important;
+    transition: all .5s ease-in-out;
+}
 /* Razia Parvin CSS  */
 
 .img {
