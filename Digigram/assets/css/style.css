@@ -1,0 +1,23 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-vio{
+    color: #6c55f9;
+}
+
+.bg-vio{
+    background-color: #6c55f9;
+}
+
+.nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.active{
+    color: #6c55f9 !important;
+    font-weight:500 !important;
+}
+.nav-link:hover{
+    color: #6c55f9;
+}
