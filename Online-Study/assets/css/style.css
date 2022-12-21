@@ -1,0 +1,57 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.navbar-toggler-icon{
+color: white !important;;
+}
+
+header .navbar-nav li{
+    padding-left: 10px;
+}
+header ul li a{
+    color:black;
+}
+header ul li a.active{
+    color: #f50057;;
+}
+
+header ul li a:hover{
+    color: #f50057!important;
+    transition: all .5s ease-in-out;
+}
+header button:hover{
+    background-color: black!important;
+    border-color: black!important;
+    transition: all .5s ease-in-out;
+}
+.shade{
+    border-radius: 30px;
+    box-shadow: 0px 6px 10px 5px rgba(0, 0, 0, .05);
+}
+
+.btn:hover{
+    background-color: #353535;
+    transition: all .5s ease-in-out;
+    border-color: #353535;
+}
+
+.full{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bi-chevron-double-right{
+background: rgb(255 255 255 / 18%);
+}
+
+@media only screen and (max-width: 992px) {
+.moon-hide{
+position: absolute;
+display: none;
+opacity: 0;
+}
+}
