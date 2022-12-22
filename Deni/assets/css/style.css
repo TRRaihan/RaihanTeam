@@ -92,4 +92,78 @@ main .carousel-indicators li{
 main .carousel-indicators li.active {
     background-color: BLACK!important;
 }
+section.blog > .container-fluid {
+    background-image: url(../images/img-1.png);
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 15rem;
+}
+section.blog {
+    background-image: url(../images/img-1.png);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 15rem;
+}
+section.contact {
+    background-image: url(../images/img-1.png);
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 12rem;
+}
 
+main .contact .btn-dark{
+    background-color: #ea5b6f!important;
+    color: White!important;
+    transition: all .3s ease-in-out;
+}
+main .contact .btn-dark:hover{
+    background-color: black!important;
+    color: white!important;
+    transition: all .3s ease-in-out;
+}
+.bg-red{
+    background-color:#f74a68;
+}
+
+footer ul.contact li{
+    padding: 1rem 1.3rem;
+    background-color:#f74a68;
+    margin-left: 5px;
+    border-radius: 200px;
+    color: white;
+}
+footer ul.contact li:hover{
+    color:#fbc11d;
+    transition: all .3s ease-in-out;
+}
+footer .btn-dark{
+    background-color: #ea5b6f!important;
+    color: White!important;
+    transition: all .3s ease-in-out;
+}
+footer .btn-dark:hover{
+    background-color: black!important;
+    color: white!important;
+}
+footer ul.social li i{
+    font-size: 2.3rem;
+    padding-left: 1rem;
+}
+footer ul.social li i:hover{
+    color:#fbc11d;
+    transition: all .3s ease-in-out;
+}
+footer{
+    font-weight: 300;
+}
+footer .copyright a{
+    text-decoration: none;
+    color: inherit;
+}
+footer .copyright a:hover{
+    color:#f74a68;
+    transition: all .3s ease-in-out;
+}
